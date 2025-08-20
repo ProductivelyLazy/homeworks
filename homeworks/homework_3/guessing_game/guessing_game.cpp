@@ -23,7 +23,7 @@ int main() {
   int guess{};
   int guess_count{};
   do {
-    cout << "Please provide the next guess:" << endl;
+    cout << "Please provide the next guess:";
     cin >> guess;
 
     if (guess < rand_num)
